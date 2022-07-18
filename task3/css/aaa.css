@@ -1,0 +1,146 @@
+body{
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#head{
+    background-color:rgb(27, 64, 105);
+}
+#section{
+    background-color:aliceblue;
+}
+#section1{
+    background-color:rgb(62, 179, 214);
+}
+#section2{
+    background-color:aliceblue;
+}
+#headcontent{
+    width: 1200px;
+    margin: auto;
+}
+#head ul:first-of-type{
+    list-style-type: none;
+    margin: 0%;
+    font-size: xx-large;
+    color: white;
+    padding: 10px;
+    line-height: 39px;
+    float: left;
+}
+#head ul img{
+    height: 39px;
+    position: relative;
+    top: 3px;
+}
+#ul2{
+    margin: 0% 0px;
+    float: right;
+    /* position:sticky;
+    top: 0px; */
+}
+#ul2 a{
+    text-decoration: none;
+}
+#ul2 li{
+    list-style: none;
+    display: inline-block;
+    padding: 27px 10px;
+    color: white;
+    opacity: .8;
+}
+#ul2 li:hover{
+    color: rgb(16, 142, 173);
+    opacity: 2;
+}
+#fix{
+    clear: left;
+}
+#head h2{
+    padding: 10px 5px;
+    color: white;
+    margin: 0%;
+}
+#sectioncontent{
+    width: 1200px;
+    margin: auto;
+}
+#sectioncontent div{
+    width: 280px;
+    float: left;
+    margin: auto;
+    padding: 50px 10px;
+    text-align: center;
+    color: grey;
+}
+#sectioncontent img{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+#sectioncontent a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(110, 110, 110) ;
+    padding: 5px;
+}
+#sectioncontent a:hover{
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+#section1content{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+#section1content p{
+    padding: 0px 20px;
+}
+#section2content{
+    width: 1100px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    color: grey;
+}
+#section2content div:first-of-type{
+    height: 200px;
+    width: 400px;
+    float: left;
+    padding: 30px;
+}
+#section2content img:first-of-type{
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    float: right;
+    position: relative;
+    left: -100px;
+
+}
+#section2content img{
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+}
+#section2content div{
+    width: 400px;
+    height: 200px;
+    float: right;
+    padding: 30px;
+}
+#section2content a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(62, 179, 214);
+    padding: 5px;
+}
+#section2content a:hover{
+    border: 1px solid rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+}
+#section2content h4{
+    color:rgba(0, 0, 0, 0.788);
+}
